@@ -1,7 +1,8 @@
-.title {
-  color: #FECEA8;
+.section-subtitle {
+  color: #fecda7;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.4px;
   text-transform: uppercase;
+  margin: 0;
 }

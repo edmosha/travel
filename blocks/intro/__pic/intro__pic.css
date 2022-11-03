@@ -1,5 +1,5 @@
 .intro__pic {
-  max-width: 640px;
-  height: 360px;
-  padding-right: 130px;
+  width: 348px;
+  height: 348px;
+  object-fit: cover;
 }
