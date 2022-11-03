@@ -1,6 +1,6 @@
-.intro__text {
+.intro__text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 70px;
+  max-width: 480px;
 }

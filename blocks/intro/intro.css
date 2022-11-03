@@ -1,8 +1,14 @@
 .intro {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   margin-top: 85px;
   align-items: center;
+  max-width: 972px;
+  padding-left: 66px;
+  margin: 0 auto;
   margin-bottom: 130px;
+}
+
+.intro .section-subtitle {
+  margin-bottom: 30px;
 }

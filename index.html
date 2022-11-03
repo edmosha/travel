@@ -12,27 +12,34 @@
     <header class="header">
       <nav>
         <ul class="header__list">
+
           <li class="header__list-item">
-            <a class="header__link link" href="#" target="_blank">Мечты</a></li>
+            <a class="header__link link" href="#dreams">Мечты</a>
+          </li>
+
           <li class="header__list-item">
-            <a class="header__link link" href="#" target="_blank">Ожидания</a></li>
+            <a class="header__link link" href="#expectations">Ожидания</a>
+          </li>
+
           <li class="header__list-item">
-            <a class="header__link link" href="#" target="_blank">Реальность</a></li>
+            <a class="header__link link" href="#reality">Реальность</a>
+          </li>
+
         </ul>
       </nav>
-      <div class="header__complain">
-        <a class="header__complain-link link" href="#" target="_blank">Пожаловаться</a>
-      </div>
+        <a class="header__link link" href="#" target="_blank">Пожаловаться</a>
     </header>
     <main class="content">
-      <section class="intro" aria-label="Интро">
-        <div class="intro__text">
-          <h1 class="intro__title title">Куда я поеду</h1>
-          <h2 class="intro__subtitle subtitle">Куда я&nbsp;поеду сразу, как можно будет куда-то поехать</h2>
+
+      <section class="intro" aria-label="Интро" id="dreams">
+        <div class="intro__text-container">
+          <p class="section-subtitle">Куда я поеду</p>
+          <h1 class="section-title">Куда я&nbsp;поеду сразу, как можно будет куда-то поехать</h1>
         </div>
         <img class="intro__pic" src="./images/intro-image.jpeg" alt="Самолет">
       </section>
-      <section class="places">
+
+      <section class="places" id="expectations">
         <article class="place">
           <div class="place__image">
             <img class="place__img" src="./images/places-forest.jpeg" alt="Лес">
@@ -45,6 +52,7 @@
             </div>
           </div>
         </article>
+
         <article class="place">
           <div class="place__image">
             <img class="place__img" src="./images/places-mountains.jpeg" alt="Горы">
@@ -56,6 +64,7 @@
             </div>
           </div>
         </article>
+
         <article class="place">
           <div class="place__image">
             <img class="place__img" src="./images/places-black-sea.jpeg" alt="Черное море">
@@ -69,29 +78,37 @@
             </div>
           </div>
         </article>
+
       </section>
-      <section class="people" aria-label="Люди">
+
+      <section class="people" aria-label="Люди" id="reality">
         <h2 class="people__title title">Люди</h2>
         <p class="people__subtitle subtitle">Что говорят и говорили люди о путешествиях</p>
         <ul class="people__feedbacks">
+
           <li class="people__feedback">
             <h3 class="people__feedback-title">Иван Бунин</h3>
             <p class="people__feedback-text">Человека делают счастливым три вещи: любовь, интересная работа и возможность путешествовать.</p>
           </li>
+
           <li class="people__feedback">
             <h3 class="people__feedback-title">Альбер Камю</h3>
             <p class="people__feedback-text">Путешествие как самая великая и серьезная наука помогает нам вновь обрести себя.</p>
           </li>
+
           <li class="people__feedback">
             <h3 class="people__feedback-title">Норвежская пословица</h3>
             <p class="people__feedback-text">Лишь тот, кто странствует, открывает новые пути.</p>
           </li>
+
           <li class="people__feedback">
             <h3 class="people__feedback-title">Мария Захарова</h3>
             <p class="people__feedback-text">В принципе зарубежная поездка – это серьезнейшее, ответственнейшее и очень рискованное предприятие.</p>
           </li>
+
         </ul>
       </section>
+
     </main>
     <footer class="footer">
       <p class="footer__copyright">&copy; 2020</p>
