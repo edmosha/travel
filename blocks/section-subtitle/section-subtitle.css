@@ -1,8 +1,22 @@
 .section-subtitle {
+  font-family: 'Inter', 'Arial', sans-serif;
   color: #fecda7;
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.4px;
+  letter-spacing: -0.5px;
+  word-spacing: 4px;
   text-transform: uppercase;
   margin: 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .section-subtitle {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .section-title {
+    font-size: 38px;
+  }
 }

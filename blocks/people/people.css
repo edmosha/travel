@@ -1,3 +1,36 @@
 .people {
-  margin: 140px 70px 100px;
+  width: 100%;
+  margin: 135px 0 117px;
+  padding: 0 68px;
+  box-sizing: border-box;
+}
+
+.people .section-title {
+  max-width: 400px;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 1920px) {
+  .people {
+    padding: 0 103px;
+    margin: 200px 0 183px;
+  }
+
+  .people .section-title {
+    max-width: 630px;
+    margin-top: 46px;
+  }
+}
+
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .people {
+    padding: 0 77px;
+    margin: 160px 0 140px;
+  }
+
+  .people .section-title {
+    max-width: 500px;
+    margin-top: 30px;
+  }
 }

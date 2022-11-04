@@ -1,7 +1,20 @@
 .footer {
-  min-height: 550px;
+  min-height: 620px;
   background-color: #fecda7;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (min-width: 1920px) {
+  .footer {
+    min-height: 928px;
+  }
+}
+
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .footer {
+    min-height: 695px;
+  }
 }

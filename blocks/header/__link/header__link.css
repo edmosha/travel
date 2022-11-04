@@ -1,5 +1,26 @@
 .header__link {
   font-size: 12px;
   font-weight: 700;
+  text-decoration: none;
+  color: #000000;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
 }
 
+.header__link:hover {
+  opacity: 0.5;
+}
+
+
+@media screen and (min-width: 1920px) {
+  .header__link {
+    font-size: 19px;
+  }
+}
+
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .header__link {
+    font-size: 14px;
+  }
+}
