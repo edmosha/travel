@@ -23,10 +23,13 @@
   }
 }
 
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 450px) and (max-width: 1023px) {
   .section-title {
     font-size: 20px;
   }
 }
-
+@media screen and (max-width: 450px) {
+  .section-title {
+    font-size: 16px;
+  }
+}

@@ -1,7 +1,9 @@
 .intro__pic {
+  max-width: 100%;
   width: 355px;
   height: 355px;
   object-fit: cover;
+  object-position: center;
 }
 
 @media screen and (min-width: 1920px) {
@@ -11,10 +13,31 @@
   }
 }
 
-
 @media screen and (min-width: 1440px) and (max-width: 1919px) {
   .intro__pic {
     width: 400px;
     height: 400px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__pic {
+    width: 270px;
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__pic {
+    width: 300px;
+    height: 300px;
+    margin: 35px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__pic {
+    width: 100%;
+    margin: 35px 0 0 0;
   }
 }

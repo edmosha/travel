@@ -18,3 +18,21 @@
     min-height: 695px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    min-height: 500px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    min-height: 400px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer {
+    min-height: 300px;
+  }
+}

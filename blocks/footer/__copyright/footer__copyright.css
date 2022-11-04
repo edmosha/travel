@@ -17,3 +17,21 @@
     font-size: 42px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .footer__copyright {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer__copyright {
+    font-size: 20px;
+  }
+}
