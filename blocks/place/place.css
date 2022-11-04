@@ -1,8 +1,0 @@
-.place {
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
-  grid-template-rows: auto;
-}
-.place:nth-child(2) {
-direction: rtl;
-}

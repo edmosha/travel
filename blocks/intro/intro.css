@@ -1,14 +1,33 @@
 .intro {
   display: flex;
-  justify-content: space-between;
-  margin-top: 85px;
   align-items: center;
-  max-width: 972px;
-  padding-left: 66px;
-  margin: 0 auto;
-  margin-bottom: 130px;
+  padding-left: 70px;
+  margin-bottom: 132px;
 }
 
 .intro .section-subtitle {
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1920px) {
+  .intro {
+    padding-left: 103px;
+    margin-bottom: 198px;
+  }
+
+  .intro .section-subtitle {
+    margin-bottom: 55px;
+  }
+}
+
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .intro {
+    padding-left: 77px;
+    margin-bottom: 150px;
+  }
+
+  .intro .section-subtitle {
+    margin-bottom: 40px;
+  }
 }

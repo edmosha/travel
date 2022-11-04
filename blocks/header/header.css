@@ -2,6 +2,23 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 1056px;
-  margin: 50px auto 81px;
+  width: 100%;
+  margin: 49px auto 83px;
+  padding: 0 70px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1920px) {
+  .header  {
+    margin: 78px 0 124px;
+    padding: 0 103px;
+  }
+}
+
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .header  {
+    margin: 54px 0 97px;
+    padding: 0 77px;
+  }
 }

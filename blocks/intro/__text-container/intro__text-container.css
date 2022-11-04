@@ -1,0 +1,22 @@
+.intro__text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 550px;
+  margin-right: 148px;
+}
+
+@media screen and (min-width: 1920px) {
+  .intro__text-container {
+    max-width: 838px;
+    margin-right: 210px;
+  }
+}
+
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .intro__text-container {
+    max-width: 600px;
+    margin-right: 188px;
+  }
+}

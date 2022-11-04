@@ -1,0 +1,23 @@
+.people__feedback-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  margin-top: 122px;
+  padding: 0;
+}
+
+@media screen and (min-width: 1920px) {
+  .people__feedback-container {
+    margin-top: 185px;
+  }
+}
+
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .people__feedback-container {
+    margin-top: 137px;
+  }
+}
+

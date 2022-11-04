@@ -2,5 +2,19 @@
   font-size: 13px;
   font-weight: 400;
   letter-spacing: .3;
-  line-height: 1.5;
+  line-height: 1.7;
+  margin: 0;
+}
+
+@media screen and (min-width: 1920px) {
+  .people__feedback-text {
+    font-size: 19px;
+  }
+}
+
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .people__feedback-text {
+    font-size: 14px;
+  }
 }

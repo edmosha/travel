@@ -1,5 +1,20 @@
 .intro__pic {
-  width: 348px;
-  height: 348px;
+  width: 355px;
+  height: 355px;
   object-fit: cover;
+}
+
+@media screen and (min-width: 1920px) {
+  .intro__pic {
+    width: 534px;
+    height: 534px;
+  }
+}
+
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  .intro__pic {
+    width: 400px;
+    height: 400px;
+  }
 }
