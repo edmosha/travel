@@ -1,0 +1,10 @@
+.place__text-container {
+  padding: 70px 180px 90px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.place__text-container:nth-child(2) {
+  text-align: left;
+}
+

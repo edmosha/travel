@@ -35,15 +35,11 @@
 
 /* place */
 @import url(../blocks/place/place.css);
-@import url(../blocks/place/__img/place__img.css);
-@import url(../blocks/place/__text-block/place__text-block.css);
-@import url(../blocks/place/__text/place__text.css);
-@import url(../blocks/place/__subtitle/place__subtitle.css);
-@import url(../blocks/place/__paragraph-block/place__paragraph-block.css);
-@import url(../blocks/place/__type/_mountains/place__type_mountains.css);
-@import url(../blocks/place/__type/_forest/place__type_forest.css);
-@import url(../blocks/place/__type/_sea/place__type_sea.css);
 @import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__text-block/place__text-block.css);
+@import url(../blocks/place/__text-container/place__text-container.css);
+@import url(../blocks/place/__text/place__text.css);
+
 
 /* people */
 @import url(../blocks/people/people.css);
