@@ -17,3 +17,9 @@
     max-width: 272px;
   }
 }
+
+@media screen and (max-width: 625px) {
+  .people__feedback {
+    max-width: 335px;
+  }
+}
