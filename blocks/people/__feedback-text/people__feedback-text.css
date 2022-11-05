@@ -5,16 +5,20 @@
   line-height: 1.7;
   margin: 0;
 }
-
 @media screen and (min-width: 1920px) {
   .people__feedback-text {
     font-size: 19px;
   }
 }
 
-
 @media screen and (min-width: 1440px) and (max-width: 1919px) {
   .people__feedback-text {
     font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1439px) and (max-width: 1024px) {
+  .people__feedback-text {
+    font-size: 12px;
   }
 }

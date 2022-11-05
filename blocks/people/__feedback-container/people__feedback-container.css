@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
+  flex-wrap: wrap;
   margin: 0;
   margin-top: 122px;
   padding: 0;
@@ -14,10 +15,20 @@
   }
 }
 
-
-@media screen and (min-width: 1440px) and (max-width: 1919px) {
+@media screen and (min-width: 1024px) and (max-width: 1919px) {
   .people__feedback-container {
     margin-top: 137px;
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .people__feedback-container {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .people__feedback-container {
+    margin-top: 40px;
+  }
+}

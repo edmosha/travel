@@ -1,5 +1,9 @@
 .people__feedback {
   max-width: 245px;
+  margin-bottom: 60px;
+}
+.people__feedback:last-child {
+  margin: 0;
 }
 
 @media screen and (min-width: 1920px) {
@@ -8,9 +12,14 @@
   }
 }
 
-
 @media screen and (min-width: 1440px) and (max-width: 1919px) {
   .people__feedback {
     max-width: 272px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .people__feedback {
+    max-width: 335px;
   }
 }
