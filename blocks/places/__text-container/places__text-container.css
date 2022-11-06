@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
 .places__text-container:nth-child(2) {
   text-align: left;
 }
@@ -13,7 +14,6 @@
     padding: 91px 180px 125px 110px;
   }
 }
-
 
 @media screen and (min-width: 1440px) and (max-width: 1919px) {
   .places__text-container {
